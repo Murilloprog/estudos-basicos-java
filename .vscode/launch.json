@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContaTerminal",
+            "request": "launch",
+            "mainClass": "projetos.ContaTerminal",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -29,7 +36,7 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "segundasemana.AboutMe",
-            "args":[
+            "args": [
                 "Murillo",
                 "Lubiana",
                 "24",
