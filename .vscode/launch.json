@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "primeirasemana.BoletimEstudantil",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "primeirasemana.MinhaClasse",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "segundasemana.AboutMe",
+            "args":[
+                "Murillo",
+                "Lubiana",
+                "24",
+                "1.75"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Comentarios",
+            "request": "launch",
+            "mainClass": "segundasemana.Comentarios",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "segundasemana.Operadores",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "TestandoTerminal",
+            "request": "launch",
+            "mainClass": "segundasemana.TestandoTerminal",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "segundasemana.Usuario",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        }
+    ]
+}
