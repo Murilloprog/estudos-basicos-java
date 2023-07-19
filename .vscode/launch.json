@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CondicionalEncadeada",
+            "request": "launch",
+            "mainClass": "terceirasemana.CondicionalEncadeada",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "CondicionalComposta",
+            "request": "launch",
+            "mainClass": "terceirasemana.CondicionalComposta",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "CondicionalSimples",
+            "request": "launch",
+            "mainClass": "terceirasemana.CondicionalSimples",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "For",
+            "request": "launch",
+            "mainClass": "segundasemana.For",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "segundasemana.While",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "EstRepeticao",
+            "request": "launch",
+            "mainClass": "segundasemana.EstRepeticao",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
             "name": "AboutMeDois",
             "request": "launch",
             "mainClass": "segundasemana.AboutMeDois",
