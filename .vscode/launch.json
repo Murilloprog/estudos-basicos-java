@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCepExcCusto",
+            "request": "launch",
+            "mainClass": "terceirasemana.FormatadorCepExcCusto",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "ExcecaoChecENChec",
+            "request": "launch",
+            "mainClass": "terceirasemana.ExcecaoChecENChec",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
             "name": "Excecoes",
             "request": "launch",
             "mainClass": "terceirasemana.Excecoes",
