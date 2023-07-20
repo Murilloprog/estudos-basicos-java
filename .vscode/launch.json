@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Excecoes",
+            "request": "launch",
+            "mainClass": "terceirasemana.Excecoes",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "terceirasemana.DoWhile",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "terceirasemana.While",
+            "projectName": "estudos-basicos-java_9bc58ed2"
+        },
+        {
+            "type": "java",
             "name": "BreakContinue",
             "request": "launch",
             "mainClass": "terceirasemana.BreakContinue",
