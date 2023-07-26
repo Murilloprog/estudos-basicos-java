@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Estabelecimento",
+            "request": "launch",
+            "mainClass": "projetolanchonete.Estabelecimento",
+            "projectName": "estudos-basicos-java-1_c09d27f6"
+        },
+        {
+            "type": "java",
             "name": "Contador",
             "request": "launch",
             "mainClass": "Projeto.Contador",
