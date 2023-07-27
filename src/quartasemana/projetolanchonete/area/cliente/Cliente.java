@@ -1,4 +1,4 @@
-package projetolanchonete.area.cliente;
+package quartasemana.projetolanchonete.area.cliente;
 
 public class Cliente {
     public void escolherLanche() {

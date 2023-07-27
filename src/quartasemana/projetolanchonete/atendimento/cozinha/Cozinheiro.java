@@ -1,6 +1,6 @@
-package projetolanchonete.atendimento.cozinha;
+package quartasemana.projetolanchonete.atendimento.cozinha;
 
-import projetolanchonete.atendimento.Atendente;
+import quartasemana.projetolanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
 	//pode ser default

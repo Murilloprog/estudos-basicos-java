@@ -1,9 +1,9 @@
-package projetolanchonete;
+package quartasemana.projetolanchonete;
 
-import projetolanchonete.atendimento.cozinha.Almoxarife;
-import projetolanchonete.atendimento.cozinha.Cozinheiro;
-import projetolanchonete.area.cliente.Cliente;
-import projetolanchonete.atendimento.Atendente;
+import quartasemana.projetolanchonete.area.cliente.Cliente;
+import quartasemana.projetolanchonete.atendimento.Atendente;
+import quartasemana.projetolanchonete.atendimento.cozinha.Almoxarife;
+import quartasemana.projetolanchonete.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
     public static void main(String[] args) {

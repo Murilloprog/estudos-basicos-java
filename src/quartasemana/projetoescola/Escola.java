@@ -1,4 +1,4 @@
-package projetoescola;
+package quartasemana.projetoescola;
 
 public class Escola {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package projetolanchonete.atendimento.cozinha;
+package quartasemana.projetolanchonete.atendimento.cozinha;
 
 public class Almoxarife {
 

@@ -1,4 +1,4 @@
-package projetoescola;
+package quartasemana.projetoescola;
 
 public class Aluno {
     /*String nome;

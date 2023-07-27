@@ -1,4 +1,4 @@
-package projetolanchonete.atendimento;
+package quartasemana.projetolanchonete.atendimento;
 
 public class Atendente {
     public void servindoMesa() {
