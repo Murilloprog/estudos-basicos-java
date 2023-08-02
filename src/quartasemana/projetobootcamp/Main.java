@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import quartasemana.projetobootcamp.dominio.Bootcamp;
 import quartasemana.projetobootcamp.dominio.Conteudo;
@@ -52,12 +53,20 @@ public class Main {
         murillo.progredir();
 
 
-        barbara.inscrever(fullstack);
         barbara.inscrever(bootcamp);
         barbara.progredir();
         barbara.progredir();
         barbara.progredir();
+        barbara.progredir();
 
+        System.out.println(String.format("XP Barbara: %.2f", barbara.calcularTotalXp()));
+        System.out.println(String.format("XP Murillo: %.2f", murillo.calcularTotalXp()));
 
+        /*List<Dev> ranking = (List<Dev>) Arrays.asList(murillo, barbara).stream()
+                                              .sorted(dev1, dev2) -> Double.compare(dev1.calcularTotalXp(), dev2.calcularTotalXp())
+                                              .collect(Collectors.toList());
+        for (Dev dev : ranking) {
+            System.out.println(dev.getNome());
+        }  */
     }
 }

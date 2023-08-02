@@ -38,20 +38,10 @@ public class Dev {
         }
     }
 
-    public List<Conteudo> getConteudosInscritos() {
-        return conteudosInscritos;
-    }
-
-    public void setConteudosInscritos(List<Conteudo> conteudosInscritos) {
-        this.conteudosInscritos = conteudosInscritos;
-    }
-
-    public List<Conteudo> getConteudosConcluidos() {
-        return conteudosConcluidos;
-    }
-
-    public void setConteudosConcluidos(List<Conteudo> conteudosConcluidos) {
-        this.conteudosConcluidos = conteudosConcluidos;
+    public double calcularTotalXp (){
+        return conteudosConcluidos.stream() 
+                .mapToDouble(conteudo -> conteudo.calcularXp())
+                .sum();
     }
 
     public String getNome() {
